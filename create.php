@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input class="form-control" name="image" type="file" />
       </label>
     </div>
-    <button class="btn btn-primary mb-3" type="submit">
+    <button class="btn btn-warning mb-3" type="submit">
       Submit
     </button>
   </form>
