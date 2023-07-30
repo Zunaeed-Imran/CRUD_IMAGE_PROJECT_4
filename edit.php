@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <span>Image: </span>
       <input name="image" type="file" />
     </label>
-    <button type="submit">
+    <button class="btn btn-warning mb-3" type="submit">
       Submit
     </button>
   </form>
